@@ -17,18 +17,20 @@ attendance = [
 
 ]
 
+# count_nonzero
+arr=np.array(attendance)
+# functions
 # sum,max,min,avg
 # axis=0 // column
 # axis=1 // row
-arr=np.array(attendance)
-
+# arr=np.array(attendance)
 
 
 # studentwise present count
 # print(np.sum(arr,axis=1))
 
 # daywise
-print(np.sum(arr,axis=0))
+# print(np.sum(arr,axis=0))
 
 
 # display attensdance student3
@@ -47,3 +49,10 @@ print(np.sum(arr,axis=0))
 # arr[9,1]=1
 
 # print(arr)
+
+
+student_wise_absent_count = np.count_nonzero(arr==0,axis=1)
+print(student_wise_absent_count)
+
+day_wise_absent_count = np.count_nonzero(arr==0,axis=0)
+print(day_wise_absent_count) 

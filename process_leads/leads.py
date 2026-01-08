@@ -10,16 +10,3 @@ leads = np.array([
     [35, 50, 42, 45, 25]   # Saturday
 ])
 
-# Task 1: Total leads generated each day
-# print(np.sum(leads,axis=1)) #axis =1 for rowwise,0 for column
-
-# Task 2: Total leads from each source in 7 days
-# print(np.sum(leads,axis=0))
-
-# Task 3: Highest lead day
-
-# print(np.max(leads,axis=1))
-
-# Task 4: Average leads per source
-
-print(np.average(leads,axis=0))
