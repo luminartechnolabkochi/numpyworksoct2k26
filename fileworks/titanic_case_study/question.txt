@@ -1,0 +1,36 @@
+"""
+# 1️⃣ Total Passengers & Columns
+
+
+2️⃣ Survival Analysis
+    
+  
+3️⃣ Gender-based Survival
+
+  
+4️⃣ Class-wise Survival
+
+  
+
+5️⃣ Age Statistics
+
+   
+
+6️⃣ Fare Analysis
+
+   
+
+7️⃣ Passengers Above Age 50
+
+
+8️⃣ Conditional Logic (np.where)
+
+  
+
+9️⃣ Sorting by Fare (Descending)
+    
+
+🔟 Unique Embarkation Points
+
+
+"""

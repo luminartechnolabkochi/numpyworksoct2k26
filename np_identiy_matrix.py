@@ -1,0 +1,14 @@
+
+
+"""
+1   0   0
+0   1   0
+0   0   1
+
+3 X 3 identity matrix
+"""
+
+
+import numpy as np
+
+print(np.eye(3,3))
